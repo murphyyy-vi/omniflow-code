@@ -87,7 +87,7 @@ export const DEMO_CANDIDATES: MatchCandidate[] = [
     major: '计算机科学与技术',
     campus: 'pukou',
     publicTags: ['早睡早起', '轻度洁癖', '安静学习'],
-    compatibilityScore: 92,
+    compatibilityScore: 95,
     dimensionScores: { routine: 94, hygiene: 92, social: 88, environment: 90, study: 93 },
     radar: {
       me: ME_RADAR,
