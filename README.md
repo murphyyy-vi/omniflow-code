@@ -32,4 +32,3 @@ Friend teams, chat, real match API (`GET /api/match/results`, icebreaker endpoin
 
 ## Guidelines
 - Types live in `shared/types/*`; hash routing only; never edit `components/ui/`.
-这是我的第一版

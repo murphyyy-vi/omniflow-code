@@ -124,7 +124,7 @@ export const DEMO_CANDIDATES: MatchCandidate[] = [
   {
     candidateId: 'demo-3',
     displayName: '陈思远',
-    major: '计算机科学与技术',
+    major: '会计学',
     campus: 'pukou',
     publicTags: ['夜猫子', '机械键盘', '内向'],
     compatibilityScore: 81,
@@ -144,7 +144,7 @@ export const DEMO_CANDIDATES: MatchCandidate[] = [
   {
     candidateId: 'demo-4',
     displayName: '王浩然',
-    major: '计算机科学与技术',
+    major: '审计学',
     campus: 'pukou',
     publicTags: ['午休党', '怕冷', '爱整洁'],
     compatibilityScore: 74,
@@ -179,6 +179,26 @@ export const DEMO_CANDIDATES: MatchCandidate[] = [
       '你喜欢深夜开黑，我们能约定个熄灯时间吗？',
       '你社交活跃，周末有什么活动可以带上我？',
       '早上我起得早，闹钟声音我们怎么协调？',
+    ],
+  },
+    {
+    candidateId: 'demo-6',
+    displayName: '余文',
+    major: '大数据科学与技术',
+    campus: 'pukou',
+    publicTags: ['早睡早起', '性格内向', '干净整洁'],
+    compatibilityScore: 87,
+    dimensionScores: { routine: 90, hygiene: 89, social: 30, environment: 85, study: 84 },
+    radar: {
+      me: ME_RADAR,
+      candidate: { routine: 90, hygiene: 88, study: 85, social: 30, environment: 87, special: 50 },
+    },
+    conflicts: [],
+    summaryText: '社交契合但作息差异大，建议先沟通熄灯时间',
+    icebreakers: [
+      '可以一起去图书馆',
+      '可以传授早起秘诀吗？',
+      '我也看重卫生，可以指定值日表',
     ],
   },
 ];
